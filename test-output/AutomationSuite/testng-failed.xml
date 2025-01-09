@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationSuite]">
+  <test thread-count="5" name="VerifyStockPrice(failed)">
+    <classes>
+      <class name="test.VerifyStockPrice">
+        <methods>
+          <include name="verifyTheStockPrice"/>
+        </methods>
+      </class> <!-- test.VerifyStockPrice -->
+    </classes>
+  </test> <!-- VerifyStockPrice(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
